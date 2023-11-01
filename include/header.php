@@ -60,6 +60,9 @@
 					<a id="meus-projetos" href="#projetos">Projetos</a>
 				</li>
 				<li>
+					<a id="tecnologias" href="#estagio">Tecnologias</a>
+				</li>
+				<li>
 					<a id="deu-match" href="#match">#DeuMatch</a>
 				</li>
 				</ul>

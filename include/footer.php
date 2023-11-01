@@ -11,9 +11,12 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="assets/js/app.js"></script>
+<script src="assets/js/nuvem.js"></script>
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 
+
+<!-- Temas -->
 <script>
 $('#switch-style').change(function() {
 // se estiver marcado
@@ -60,6 +63,8 @@ $('.main-header a[href^="#"]').on('click', function(e) {
 });
 </script>
 
+<!-- Galeria -->
+
 <script>
 	AOS.init();
 
@@ -74,3 +79,6 @@ $('.main-header a[href^="#"]').on('click', function(e) {
 	});
 
 </script>
+
+<!-- Data automática -->
+<script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>

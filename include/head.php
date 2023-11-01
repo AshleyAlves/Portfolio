@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <script src="assets/js/jquery.js"></script>
+	<script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-base.min.js" type="text/javascript"></script>
+	<script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-tag-cloud.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
 </head>
